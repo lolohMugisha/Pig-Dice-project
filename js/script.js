@@ -120,12 +120,14 @@ $(document).ready(function () {
     });
     //Display dice roll number and turn total when the roll button is clicked
     $('.roll1').click(function (event) { //roll button for player1
-        event.preventDefault();
+        // alert('ok')
+        // event.preventDefault();
         //Activate Gaming Area
         player1.active = true;
         player2.active = false;
         player1.roll(); //call the function to generate random numbers
-        $('.diceRoll1').text(player1.diceRoll); //display the rolled dice number
+        console.log(player1.roll())
+        $('#diceRoll1').text(player1.roll()); //display the rolled dice number
         $('.turnScore1').text(player1.turnTotal); //display the turn score (temporary score)
     });
     $('.roll2').click(function (event) { //roll button for player2

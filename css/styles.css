@@ -11,7 +11,7 @@ h1,h3,h4,button{
 font-family: 'Bungee Shade', cursive;
 }
 body{
-  background-image:url("https://images.pexels.com/photos/1765299/pexels-photo-1765299.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUHdLtyzMkVb9dkbcfdBGsIbe7zFmZGPmQf_vVChE6rZ4Qy0mA&reload=on");
   background-size:cover;
   background-repeat: no-repeat;
  
@@ -119,7 +119,7 @@ button#playButton {
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
-  color: white;
+  color: black;
 }
 #gamingArea img{
   border: 5px solid #001f75;
@@ -135,4 +135,7 @@ button#playButton {
 }
 .disableGamingArea {
   opacity: 0.3;
+}
+.row{
+  color: black
 }
