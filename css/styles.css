@@ -1,131 +1,132 @@
-//business logic
-var player1="";
-var player2="";
-
-.player-console {
-    display: none;
-  }
-var throwdice = function () {
-  return Math.floor(6*Math.random())+1;
+.container {
+  font-size: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0px;
+  background-image: url(../assets/images/img17compressed.jpeg);
+  background-size: cover;
+      color: #001f75;
+}
+h1,h3,h4,button{
+font-family: 'Bungee Shade', cursive;
+}
+p,label,li{
+  font-family: 'Berkshire Swash', cursive;
 }
 
-function Player(turn) {
-  this.roll = 0;
-  this.tempscore = 0;
-  this.totalscore = 0;
-  this.turn = turn;
-  this.playerName;
+.btn{
+ font-size: 22.5px;
+  background-color: #001f75;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #777;
+  color: white;
 }
-
-// checking for 1
-Player.prototype.rollone = function() {
-  if (this.roll === 1) {
-  this.tempscore = 0;
-  alert("Sorry " + this.playerName + ", you rolled a 1! Your turn is over!")
-  // this.changeturn();
-  } else {
-  this.tempscore += this.roll;
-  }
+.btn:hover{
+   box-shadow: 0px 0px 10px #eee;
+color: white;
 }
-
-// hold
-Player.prototype.hold = function () {
-  this.totalscore += this.tempscore;
-  this.tempscore = 0;
-  // this.changeturn();
-  alert(this.playerName + ", your turn is over, pass the mouse!");
+/*Styles for the Title Section*/
+#header {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+      border-radius: 0px 0px 20px 20px;
+  border-bottom: 1px solid #001f75;
+   box-shadow: 0px 0px 30px #ccc;
 }
-
-// // changing turn
-// Player.prototype.changeturn = function () {
-//   if (this.roll ===1) {
-//     this.turn = false;
-//   } else {
-//     this.turn = true;
-//   }
-// }
-// check for 100
-Player.prototype.winnerCheck = function () {
-  if (this.totalscore >= 100) {
-    alert(this.playerName + " You are the winner!");
-  }
+#header img {
+  width: 300px;
+  height: 150px;
+  padding-right: 30px;
 }
-
-Player.prototype.newGame = function () {
-  //debugger;
-  this.roll = 0;
-  this.tempscore = 0;
-  this.totalscore = 0;
-  this.playerName ="";
+#header h1 {
+  font-size: 45px;
+  color: #001f75;
+  font-weight: bolder;
 }
-
-var clearValues = function(){
-  $(".player1Name").val("");
-  $(".player2Name").val("");
+/*Styles for the Rules Section*/
+#rulesSection {
+  background-color: rgba(238, 238, 238, 0.4);
+  margin: auto;
+  box-shadow: 0px 0px 10px #ccc;
+  padding: 2px 10px 2px 10px;
+  width: 70%;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
 }
-
-// User Interface
-$(document).ready(function() {
-
-  $("button#start").click(function(event){
-    player1 = new Player(true);
-    player2 =  new Player(false);
-    $(".player-console").show();
-    $(".start-menu").hide();
-
-    var player1Name = $(".player1Name").val();
-    $("#player1Name").text(player1Name);
-
-    var player2Name = $(".player2Name").val();
-    $("#player2Name").text(player2Name);
-
-    player1.playerName=player1Name;
-    player2.playerName=player2Name;
-
-  });
-  $("button#new-game").click(function(event){
-    $(".player-console").hide();
-    clearValues();
-    player1.newGame();
-    player2.newGame();
-    $("#round-total-1").empty();
-    $("#total-score-1").empty();
-    $("#die-roll-1").empty();
-    $("#round-total-2").empty();
-    $("#total-score-2").empty();
-    $("#die-roll-2").empty();
-
-    $(".start-menu").show();
-  });
-
-  $("button#player1-roll").click(function(event){
-    player1.roll = throwdice();
-    $("#die-roll-1").text(player1.roll);
-    player1.rollone();
-    $("#round-total-1").text(player1.tempscore);
-  });
-
-  $("button#player2-roll").click(function(event){
-    player2.roll = throwdice();
-    $("#die-roll-2").text(player2.roll);
-    player2.rollone();
-    $("#round-total-2").text(player2.tempscore);
-  });
-
-  $("button#player1-hold").click(function(event){
-    player1.hold();
-    $("#total-score-1").text(player1.totalscore);
-    $("#round-total-1").empty();
-    $("#die-roll-1").empty();
-    player1.winnerCheck();
-  });
-
-  $("button#player2-hold").click(function(event){
-    player2.hold();
-    $("#total-score-2").text(player2.totalscore);
-    $("#round-total-2").empty();
-    $("#die-roll-2").empty();
-    player2.winnerCheck();
-  });
-
-});
+#rulesHeader {
+  padding: 0px;
+  margin: 0px;
+}
+#rulesHeader:hover {
+  color: white;
+}
+#rules{
+  border-bottom: 1px solid black;
+   font-size: 20px;
+  font-weight: bolder;
+}
+/*Styles for the Players Names Form*/
+.newGame{
+  display: none;
+   border-bottom: 1px solid black;
+   font-size: 20px;
+  font-weight: bolder;
+}
+.newGame:hover {
+  color: white;
+}
+#playingForm {
+  background-color: rgba(238, 238, 238, 0.4);
+  margin: auto;
+  box-shadow: 0px 0px 10px #ccc;
+  padding: 2px 10px 2px 10px;
+  width: 70%;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+}
+form h3{
+   border-bottom: 1px solid black;
+  font-size: 20px;
+  font-weight: bolder;
+}
+button#playButton {
+  width: 16%;
+  margin-left: 42%;
+  margin-top: 10px;
+}
+/*Styles for the Gaming Section*/
+#gamingArea {
+  display: none;
+  width: 80%;
+  margin: 10px auto;
+  font-size: 22.5px; 
+}
+.player1Area,
+.player2Area {
+  background-color: transparent;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+#gamingArea img{
+  border: 5px solid #001f75;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px #001f75;
+  width: 200px;
+  height: 210px;
+}
+.player1NameOutput,.player2NameOutput{
+  font-weight: bold;
+  font-size: 30px;
+  
+}
+.disableGamingArea {
+  opacity: 0.3;
+}
