@@ -10,6 +10,12 @@
 h1,h3,h4,button{
 font-family: 'Bungee Shade', cursive;
 }
+body{
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUHdLtyzMkVb9dkbcfdBGsIbe7zFmZGPmQf_vVChE6rZ4Qy0mA&reload=on");
+  background-size:cover;
+  background-repeat: no-repeat;
+ 
+}
 p,label,li{
   font-family: 'Berkshire Swash', cursive;
 }
