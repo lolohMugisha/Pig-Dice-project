@@ -17,7 +17,7 @@ The player who first scores 100 or more points wins the game.
 
 # Setup/installation Requirements
 Refer to git clone:https://github.com/lolohMugisha/Pig-Dice-project.git details of code, therefore, you need a code editor.
-You need a brouser, to open https://lolohmugisha.github.io/Pig-Dice-project/index.html ordre to view my webpage.
+You need a brouser, to open https://lolohmugisha.github.io/Pig-Dice-project/index.html in order to view my webpage.
 
 ### To access Pig-Dice-project all you need to do is:
 * Connect to the internet
