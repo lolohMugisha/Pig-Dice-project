@@ -1,8 +1,23 @@
 PIG-DICE-PROJECT
-### This is my landing page "Triangle tracker" showing some of my works, Date 17th,Dec 2018
+### This is my Fourth Independent Project for Moringa prep class "Pig-Dice-project" And it's a fun game based on two players rolling a dice, Date 14th,Jan 2019
 #### By **Charlotte Laurence NYIRAMUGISHA**
 ## Description
-Triangle tracker is some of my work and It is standalone webpage with information about triangle tracking and it hosted through Github pages
+This is website or webpage which is a game.to be more precise its a roll the dice game .From the title it involves two players and also involves a dice,
+The Pig-Dice game is a fun game based on two players rolling a dice.
+
+A player rolls the die until either:
+
+1. A one is rolled
+2. The player chooses to hold i.e. stop rolling
+When a one is rolled, accumulated points are discarded and the other player takes over the dice.
+
+When Hold is pressed, the accumulated points are added to the player's final Score.
+
+The other player then takes the die over.
+
+
+
+
 ## Setup/Installation Requirements
 #To access triangle tracker all you need to do is:
 * Connect to the internet
