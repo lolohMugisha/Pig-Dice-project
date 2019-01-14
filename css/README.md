@@ -14,28 +14,22 @@ When a player rolls a 2 - 6, the dice score is added to their turn total and the
 When a player rolls a 1, their total score reverts to 0 and it becomes the next player's turn.
 When the player chooses to "hold"(pass their turn), their turn total is added to their total score, and it becomes the next player's turn.
 The player who first scores 100 or more points wins the game.
+
+
 ## Setup/Installation Requirements
-#To access triangle tracker all you need to do is:
+#To access Pig-Dice-project all you need to do is:
 * Connect to the internet
 * Open your browser
 * In your browser adress bar type the following
-* https://github.com/lolohMugisha/Triangle-tracker.git
+* https://github.com/lolohMugisha/Pig-Dice-project.git
 * And there you have it
+
 ## Technologies Used
-* HTML for structuring
-* CSS for styling
-*javaScript
-
-### BDD
-
-1. The behaviour of an Isoscles triangle is when two side are equal. E.g(20; 20;17 ) Therefore, output example is: The value[20,20,17] is Isoscele Triangle.
-2. The behavior of an equirateral triangle is when all sides are equal.E.g ( 21; 21; 21), Therefore , the rusult : The value[21,21,21] is Equilaterial Triangle.
-3. The behavior of  Scalene Triangle   None of the sides are equal .E.g (10,12,14),  Therefore , the rusult : The value[10,12,14] is Scalene Triangle.
-
-4. Other behavior is when The summation of any two sides is not equal to the third sum ( 3; 6; 2 ), the result is The value[3,6,2] is Not a Triangle.
-
-5. The last one is when the one side or all side is zero or no thing. eg1 ( 0; 0; 0 ), Eg2 (2,0,1) the rusult1: The value[0,0,0] is Undefined, the rusult2: The value[2,0,1] is Undefined
+1. HTML
+2. Bootstrap
+3. js
+4. jQuery
 
 ### License
-https://github.com/lolohMugisha/Triangle-tracker.git
-Copyright (c) 20178   **Charlotte Laurence NYIRAMUGISHA**
+https://github.com/lolohMugisha/Pig-Dice-project.git
+Copyright (c) 2019  **Charlotte Laurence NYIRAMUGISHA**
