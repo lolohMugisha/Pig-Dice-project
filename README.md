@@ -15,7 +15,7 @@ When a player rolls a 1, their total score reverts to 0 and it becomes the next 
 When the player chooses to "hold"(pass their turn), their turn total is added to their total score, and it becomes the next player's turn.
 The player who first scores 100 or more points wins the game.
 
-# Setup/inttallation Requirements
+# Setup/installation Requirements
 Refer to git clone:https://github.com/lolohMugisha/Pig-Dice-project.git details of code, therefore, you need a code editor.
 You need a brouser, to open https://lolohmugisha.github.io/Pig-Dice-project/index.html ordre to view my webpage.
 
