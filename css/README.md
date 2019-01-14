@@ -16,13 +16,15 @@ When the player chooses to "hold"(pass their turn), their turn total is added to
 The player who first scores 100 or more points wins the game.
 
 
-## Setup/Installation Requirements
+
 #To access Pig-Dice-project all you need to do is:
 * Connect to the internet
 * Open your browser
 * In your browser adress bar type the following
 * https://github.com/lolohMugisha/Pig-Dice-project.git
 * And there you have it
+
+
 
 ## Technologies Used
 1. HTML
