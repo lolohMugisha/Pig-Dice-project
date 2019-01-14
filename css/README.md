@@ -10,6 +10,11 @@ A player rolls the die until either:
 1. A one is rolled
 2. The player chooses to hold i.e. stop rolling
 When a one is rolled, accumulated points are discarded and the other player takes over the dice.
+When a player rolls a 2 - 6, the dice score is added to their turn total and they can continue to play.
+When a player rolls a 1, their total score reverts to 0 and it becomes the next player's turn.
+
+
+
 
 When Hold is pressed, the accumulated points are added to the player's final Score.
 
