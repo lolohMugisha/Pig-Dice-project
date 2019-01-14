@@ -1,21 +1,19 @@
-.container {
-  font-size: 20px;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 0px;
-  background-image: url(../assets/images/img17compressed.jpeg);
-  background-size: cover;
-      color: #001f75;
-}
-h1,h3,h4,button{
-font-family: 'Bungee Shade', cursive;
-}
+
 body{
   background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUHdLtyzMkVb9dkbcfdBGsIbe7zFmZGPmQf_vVChE6rZ4Qy0mA&reload=on");
   background-size:cover;
   background-repeat: no-repeat;
- 
+  }
+ .container {
+  font-size: 20px;
+  box-sizing: border-box;
+  /* width: 100%; */
+  padding: 0px;
+  color: #001f75;
 }
+  h1,h3,h4,button{
+  font-family: 'Bungee Shade', cursive;
+  }
 p,label,li{
   font-family: 'Berkshire Swash', cursive;
 }
