@@ -1,5 +1,5 @@
-PIG-DICE-PROJECT
-### This is my Fourth Independent Project for Moringa prep class "Pig-Dice-project" And it's a fun game based on two players rolling a dice, Date 14th,Jan 2019
+###PIG-DICE-PROJECT
+This is my Fourth Independent Project for Moringa prep class "Pig-Dice-project" And it's a fun game based on two players rolling a dice, Date 14th,Jan 2019
 #### By **Charlotte Laurence NYIRAMUGISHA**
 ## Description
 This is website or webpage which is a game.to be more precise its a roll the dice game .From the title it involves two players and also involves a dice,
@@ -21,7 +21,7 @@ The player who first scores 100 or more points wins the game.
 * Connect to the internet
 * Open your browser
 * In your browser adress bar type the following
-* https://github.com/lolohMugisha/Pig-Dice-project.git
+* https://lolohmugisha.github.io/Pig-Dice-project/index.html
 * And there you have it
 
 
