@@ -14,16 +14,6 @@ When a player rolls a 2 - 6, the dice score is added to their turn total and the
 When a player rolls a 1, their total score reverts to 0 and it becomes the next player's turn.
 When the player chooses to "hold"(pass their turn), their turn total is added to their total score, and it becomes the next player's turn.
 The player who first scores 100 or more points wins the game.
-
-
-
-When Hold is pressed, the accumulated points are added to the player's final Score.
-
-The other player then takes the die over.
-
-
-
-
 ## Setup/Installation Requirements
 #To access triangle tracker all you need to do is:
 * Connect to the internet
